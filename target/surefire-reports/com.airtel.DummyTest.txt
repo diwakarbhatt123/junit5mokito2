@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: com.airtel.DummyTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec <<< FAILURE! - in com.airtel.DummyTest
+failingTest  Time elapsed: 0.007 sec  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <40> but was: <4>
+	at com.airtel.DummyTest.failingTest(DummyTest.java:17)
+
+firstTest  Time elapsed: 0.001 sec  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Dummy test failed ==> expected: <2> but was: <1>
+	at com.airtel.DummyTest.firstTest(DummyTest.java:12)
+
